@@ -20,7 +20,7 @@ public class StoryStep {
     //getters
     public int getId(){return id;}
     public int getOption2NextStepId() {return option2NextStepId;}
-    public int getOptionNextStepId() {return optionNextStepId;}
+    public int getOption1NextStepId() {return optionNextStepId;}
     public String getStoryText() {return storyText;}
     public String getOption2Text() {return option2Text;}
     public String getOption1Text() {return option1Text;}
@@ -32,4 +32,6 @@ public class StoryStep {
     public void setOption2Text(String option2Text) {this.option2Text = option2Text;}
     public void setOptionNextStepId(int optionNextStepId) {this.optionNextStepId = optionNextStepId;}
     public void setStoryText(String storyText) {this.storyText = storyText;}
+
+
 }
